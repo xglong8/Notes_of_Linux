@@ -181,8 +181,8 @@
 
 ### 3. 文件和目录操作
 * 3.1 pwd 显示当前目录
-* 3.2 cd 更改当前目录
-* 3.3 ls 列出目录和文件信息
+* 3.2 cd [option] [dir] 更改当前目录
+* 3.3 ls [option] [file\|dir] 列出目录和文件信息
   ls -lth README.md 命令显示的详细信息如下：
 
   -rw-r--r--  1 usr  staff   7.2K 10 13 12:56 README.md
