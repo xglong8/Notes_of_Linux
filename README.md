@@ -1,12 +1,12 @@
 # Linux 基础
 ## 一 Shell 基础
- ### 1. 获取帮助
+### 1. 获取帮助
  * man [option] [command]
  * whatis [command] = man -f [command]
  * [command] --help
 
 
- ### 2. 关闭和重启系统
+### 2. 关闭和重启系统
  * shutdown [optione] [time] [warning]
    + 立即关闭/重启系统 shutdown -h/r now
    + 定时关闭/重启系统 shutdown -h/r 18:35/+45
@@ -14,13 +14,13 @@
  * reboot = shutdown -r
 
 
- ### 3. 常用快捷键
+### 3. 常用快捷键
  * 控制：ctrl+l, ctrl+c,ctrl+z..
  * 光标：ctrl+a, ctrl+e, ctrl+u, ctrl+k,ctrl+w,ctrl+y,Alt+f,Alt+b
  * Tab 命令补全
 
 
- ### 4. 常用操作命令
+### 4. 常用操作命令
  * whoami  列出当前用户
  * which 查看命令：which ls
  * cd, mkdir, chmod
@@ -28,7 +28,7 @@
  * alias/unalias 创建或查看/取消别名
 
 
- ### 5. 历史命令 ~/.bash_history
+### 5. 历史命令 ~/.bash_history
  * 运行历史命令
    + history [option]
    + history n 显示最近n个命令
@@ -44,7 +44,7 @@
    + ctrl+r 向上搜索历史列表
 
 
- ### 6. 特殊字符
+### 6. 特殊字符
  * \` 命令替换，反引号内的命令先执行，并把结果传到引号外
  * \# 注释
  * & 后台进程
@@ -59,7 +59,7 @@
 
 
 ## 二 vim基础
- ### 命令模式
+### 命令模式
  * 光标移动
   + k上j下h左l右，nk上翻n行
   + H,M,L光标移动到屏幕顶端,中间，底端
